@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aleschiller/burger.git"
+    "url": "git+https://github.com/alessandraschiller/burger.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aleschiller/burger/issues"
+    "url": "https://github.com/alessandraschiller/burger/issues"
   },
-  "homepage": "https://github.com/aleschiller/burger#readme",
+  "homepage": "https://github.com/alessandraschiller/burger#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
