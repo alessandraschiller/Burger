@@ -1,4 +1,4 @@
-<div class="container my-5 p-5 bg-warning rounded shadow-lg">
+<div class="container my-5 p-5 rounded shadow-lg">
   <div class="row">
     <div class="col">
       <h1 class="text-center display-1 mb-3">Eat da burger!</h1>
@@ -11,7 +11,7 @@
       <ul class="list-unstyled">
         {{#each burgers}}
           {{#unless devoured}}
-            <li class="my-1 d-flex justify-content-between align-items-center"><span class="d-block border-dark bg-light py-1 px-2 mr-1 flex-fill rounded">{{burger_name}}</span> <button data-id="{{id}}" class="btn btn-secondary border-dark btn-sm btn-drink">Eat Up!</button></li>
+            <li class="my-1 d-flex justify-content-between align-items-center"><span class="d-block border-dark bg-light py-1 px-2 mr-1 flex-fill rounded">{{burger_name}}</span> <button data-id="{{id}}" class="btn btn-secondary border-dark btn-sm btn-devour">Eat Up!</button></li>
           {{/unless}}
         {{/each}}
       </ul>
@@ -21,7 +21,7 @@
       <ul class="list-unstyled">
         {{#each burgers}}
           {{#if devoured}}
-            <li class="text-muted">{{burger_name}}</li>
+            <li class="text-white">{{burger_name}}</li>
           {{/if}}
         {{/each}}
       </ul>

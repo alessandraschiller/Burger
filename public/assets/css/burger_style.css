@@ -1,3 +1,8 @@
 body{
   font-family: 'Abhaya Libre', serif;
+  font-weight: bold;
+  color: #fff;
+}
+.container {
+  background: red url("/assets/img/bacon-burger.png") no-repeat center center;
 }

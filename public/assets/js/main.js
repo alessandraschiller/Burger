@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".btn-drink").on("click", function(event) {
+  $(".btn-devour").on("click", function(event) {
     var id = $(this).data("id");
     // Send the PUT request.
     $.ajax("/burgers/update/" + id, {
